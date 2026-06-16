@@ -666,8 +666,34 @@
                   "path": "firmware/ttgo t display/NO_LOG/1.0.38-38-g55b122ce/jade.bin"
                 }
               ]
+            },
+                        {
+              "version": "1.0.40-33-gc",
+              "path": "firmware/ttgo t display/NO_LOG/1.0.40-33-gc/jade.bin",
+              "baudRate": 921600,
+              "files": [
+                {
+                  "label": "Bootloader",
+                  "address": "0x1000",
+                  "path": "firmware/ttgo t display/NO_LOG/1.0.40-33-gc/bootloader.bin"
+                },
+                {
+                  "label": "Partition Table",
+                  "address": "0x9000",
+                  "path": "firmware/ttgo t display/NO_LOG/1.0.40-33-gc/partition-table.bin"
+                },
+                {
+                  "label": "OTA Data",
+                  "address": "0xE000",
+                  "path": "firmware/ttgo t display/NO_LOG/1.0.40-33-gc/ota_data_initial.bin"
+                },
+                {
+                  "label": "Application",
+                  "address": "0x10000",
+                  "path": "firmware/ttgo t display/NO_LOG/1.0.40-33-gc/jade.bin"
+                }
+              ]
             }
-
           ]
         }
       ]
